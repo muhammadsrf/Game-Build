@@ -3,19 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Cameraman vs Skibidi Toilet</title>
+    <title>Unity WebGL Player | Cameraman vs Skibidi Monster</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script>
-      var DEBUG = false;
-        if (!DEBUG) {
-          if (!window.console) window.console = {};
-          var methods = ["log", "debug", "warn", "info"];
-          for (var i = 0; i < methods.length; i++) {
-            console[methods] = function () { };
-          }
-        }
-    </script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -30,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Cameraman vs Skibidi Toilet</div>
+        <div id="unity-build-title">Cameraman vs Skibidi Monster</div>
       </div>
     </div>
     <script>
@@ -64,23 +54,16 @@
         }
         updateBannerVisibility();
       }
-    var DEBUG = false;
-    if (!DEBUG) {
-          if (!window.console) window.console = { };
-    var methods = ["log", "debug", "warn", "info"];
-    for (var i = 0; i < methods.length; i++) {
-      console[methods] = function () { };
-          }
-        }
+
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Testing New Controller.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Testing New Controller.data",
-        frameworkUrl: buildUrl + "/Testing New Controller.framework.js",
-        codeUrl: buildUrl + "/Testing New Controller.wasm",
+        dataUrl: buildUrl + "/4dea8b1feaa6e96213765070578cb4de.data",
+        frameworkUrl: buildUrl + "/966049747a01ac90b5c5b587c8f2e884.js",
+        codeUrl: buildUrl + "/e35a66771c5a0910b3df9c776a27d393.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "syarifdev",
-        productName: "Cameraman vs Skibidi Toilet",
+        productName: "Cameraman vs Skibidi Monster",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
