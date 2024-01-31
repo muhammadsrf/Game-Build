@@ -6,6 +6,16 @@
     <title>Unity WebGL Player | Cameraman vs Skibidi Toilet</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script>
+      var DEBUG = false;
+        if (!DEBUG) {
+          if (!window.console) window.console = {};
+          var methods = ["log", "debug", "warn", "info"];
+          for (var i = 0; i < methods.length; i++) {
+            console[methods] = function () { };
+          }
+        }
+    </script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
