@@ -8,32 +8,25 @@
     <type fullname="PSG.Combat.Shooter" preserve="all" />
     <type fullname="PSG.Combat.SkibidiWalker" preserve="all" />
     <type fullname="PSG.Combat.TargetCombat" preserve="all" />
+    <type fullname="PSG.Core.AudioManager" preserve="all" />
     <type fullname="PSG.Core.MainProgram" preserve="all" />
     <type fullname="PSG.Core.TimeManager" preserve="all" />
+    <type fullname="PSG.Data.SaveSystem" preserve="all" />
     <type fullname="PSG.Data.SO_AllLevel" preserve="all" />
     <type fullname="PSG.Data.SO_LevelBoss" preserve="all" />
     <type fullname="PSG.Data.SO_LevelNormal" preserve="all" />
-    <type fullname="PSG.Input.PlayerInput" preserve="all" />
     <type fullname="PSG.Player.MovePlatform" preserve="all" />
     <type fullname="PSG.Player.MovePlayer" preserve="all" />
-    <type fullname="PSG.SkinManager.SkinData" preserve="all" />
-    <type fullname="PSG.UI.AnimatorDestroy" preserve="all" />
-    <type fullname="PSG.UI.B_ToppingDynamic" preserve="all" />
     <type fullname="PSG.UI.DisplayBalance" preserve="all" />
     <type fullname="PSG.UI.DisplayButtons" preserve="all" />
-    <type fullname="PSG.UI.DisplayBuy" preserve="all" />
     <type fullname="PSG.UI.DisplayController" preserve="all" />
     <type fullname="PSG.UI.DisplayEndLevel" preserve="all" />
     <type fullname="PSG.UI.DisplayLevels" preserve="all" />
     <type fullname="PSG.UI.HealthBar" preserve="all" />
-    <type fullname="PSG.UI.InputLobbyController" preserve="all" />
     <type fullname="PSG.UI.ItemButtonLevel" preserve="all" />
     <type fullname="PSG.UI.LobbyManager" preserve="all" />
     <type fullname="PSG.UI.PortalButton" preserve="all" />
-    <type fullname="PSG.UI.SkinViewer" preserve="all" />
-    <type fullname="Sariep.Shop.PaymentManager" preserve="all" />
     <type fullname="PSG.Data.LevelData" preserve="nothing" serialized="true" />
-    <type fullname="PSG.SkinManager.Skin" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
@@ -75,28 +68,13 @@
     <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Localization.Locale" preserve="all" />
-    <type fullname="UnityEngine.Localization.Tables.SharedTableData" preserve="all" />
-    <type fullname="UnityEngine.Localization.Tables.StringTable" preserve="all" />
-    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
     <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
-    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ChannelMixer" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Light2D" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.LightUtility/LightMeshVertex" preserve="nothing" serialized="true" />
@@ -128,6 +106,7 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
     <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
@@ -148,12 +127,8 @@
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[UnityEngine.Vector2]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`2[System.Int32,System.Int32]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -177,6 +152,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
