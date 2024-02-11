@@ -26,11 +26,13 @@
     <type fullname="PSG.UI.DisplayEndLevel" preserve="all" />
     <type fullname="PSG.UI.DisplayLevels" preserve="all" />
     <type fullname="PSG.UI.HealthBar" preserve="all" />
+    <type fullname="PSG.UI.ImageLoader" preserve="all" />
     <type fullname="PSG.UI.InputLobbyController" preserve="all" />
     <type fullname="PSG.UI.ItemButtonLevel" preserve="all" />
     <type fullname="PSG.UI.LobbyManager" preserve="all" />
     <type fullname="PSG.UI.PortalButton" preserve="all" />
     <type fullname="PSG.UI.SkinViewer" preserve="all" />
+    <type fullname="PSG.UI.SpriteLoader" preserve="all" />
     <type fullname="Sariep.Shop.PaymentManager" preserve="all" />
     <type fullname="PSG.Data.LevelData" preserve="nothing" serialized="true" />
     <type fullname="PSG.SkinManager.Skin" preserve="nothing" serialized="true" />
