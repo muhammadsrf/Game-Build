@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=800 height=600></canvas>
+      <canvas id="unity-canvas" width=800 height=450></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Test Optimalization.loader.js";
+      var loaderUrl = buildUrl + "/Test no Ads.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Test Optimalization.data",
-        frameworkUrl: buildUrl + "/Test Optimalization.framework.js",
-        codeUrl: buildUrl + "/Test Optimalization.wasm",
+        dataUrl: buildUrl + "/Test no Ads.data",
+        frameworkUrl: buildUrl + "/Test no Ads.framework.js",
+        codeUrl: buildUrl + "/Test no Ads.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "syarifdev",
         productName: "Cameraman vs Skibidi Monster",
@@ -94,7 +94,7 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         canvas.style.width = "800px";
-        canvas.style.height = "600px";
+        canvas.style.height = "450px";
       }
 
       loadingBar.style.display = "block";
